@@ -1,0 +1,66 @@
+@import './assets/AboutSection.scss';
+@import './assets/HeroSection';
+@import './assets/AboutSection';
+@import './assets/PricingSection';
+@import './assets/ContactSection';
+@import './assets/LoginModal';
+@import './assets/TierCard';
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 20px;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
+
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  color: #fff;
+
+  .content {
+    max-width: 500px;
+    h1 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .image {
+    img {
+      width: 400px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background: white;
+  
+    .logo h1 {
+      margin: 0;
+      color: #007bff;
+    }
+  
+    nav ul {
+      display: flex;
+      gap: 40px;
+      list-style: none; /* Ensure bullets are removed */
+  
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 18px;
+  
+          &:hover {
+            color: #007bff;
+          }
+        }
+      }
+    }
+  
+    .login-button {
+      a {
+        text-decoration: none;
+        color: #007bff;
+        border: 2px solid #007bff;
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+  
+        &:hover {
+          background-color: #007bff;
+          color: white;
+        }
+      }
+    }
+  }
+  
